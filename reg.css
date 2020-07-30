@@ -1,0 +1,50 @@
+body {
+    background-color: aliceblue;
+    background-size: auto;
+ }
+.login-Page {
+ width: 400px;
+ padding: 10px;
+ margin: auto;
+} 
+.form{
+    position: relative;
+    z-index: 1;
+    background-color: beige;
+    max-width: 400px;
+    margin: 0 auto 100px;
+    padding: 45px;
+    text-align: center;
+}
+.form input{
+    font-family: Arial, Helvetica, sans-serif;
+    outline: 1px;
+    background-color: rgb(209, 241, 234);
+    width: 100%;
+    border: 0px;
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 15px;
+}
+ button{
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    outline: 0px;
+    background: rgb(9, 236, 236);
+    border: 0px;
+    color: rgb(84, 17, 240);
+    width:   200px;
+    cursor: pointer;
+    height: 30px;
+    border-radius: 20px;
+}
+.form .message{
+    padding: 15px;
+}
+.form .Register-form{
+    display: none;
+}
+.form .button:hover ,.form .button :active{
+    background-color: cyan;
+} 
